@@ -4,5 +4,13 @@
 
 {% block content %}
 <h1>Detail člena</h1>
+<p>Jméno: {{ skaut_v_sablone.jmeno|upper }}</p>
+<p>Přezdívka: {{ skaut_v_sablone.prezdivka }}</p>
+<p>Kolik mu je: {{ skaut_v_sablone.vek }}</p>
+<p>{% if skaut_v_sablone.splneno %} Už splnil zkoušku skauta.
+    {% else %} Ještě se musí snažit, aby splnil zkoušku.
+    {% endif %}</p>
 {% endblock %}
+
+
 

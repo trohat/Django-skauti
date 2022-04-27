@@ -4,5 +4,15 @@
 
 {% block content %}
 <h1>Seznam členů</h1>
+<ul>
+    {% for skaut in skauti_do_sablony %}
+        <li><a href="{% url "detail_clena" skaut.id %}">
+        {{ skaut.jmeno }}</a>
+        {% if skaut.splneno %} splnil zkoušku skauta.
+        {% else %} se ještě musí snažit.
+        {% endif %}
+        </li>
+    {% endfor %}
+</ul>
 {% endblock %}
 
