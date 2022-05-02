@@ -40,4 +40,5 @@ vymyslet i něco zajímvějšího)
 14.) Vytvořte menu - může to být samostatná šablona, která se vkládá na všechny stránky. 
 Menu obsahuje odkaz i na úvodní stránku i na seznam členů.
 
-15.) Vytvořte nějaké základní CSS styly (stačí barevné písmo) v samostatném souboru a propojte je do šablon.
+15.) Vytvořte nějaké základní CSS styly (stačí barevné písmo) v samostatném souboru a
+propojte je do šablon.
