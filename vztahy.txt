@@ -1,0 +1,13 @@
+VZTAHY V DATABÁZI
+
+3 TYPY
+
+one-to-many (foreign key)
+
+
+one-to-one
+
+
+many-to-many
+
+

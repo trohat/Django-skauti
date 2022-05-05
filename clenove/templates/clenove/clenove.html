@@ -6,7 +6,7 @@
 <h1>Seznam členů</h1>
 <ul>
     {% for skaut in skauti_do_sablony %}
-        <li><a href="{% url "detail_clena" skaut.id %}">
+        <li><a href="{{ skaut.get_absolute_url }}">
         {{ skaut.jmeno }}</a>
         {% if skaut.splneno %} splnil zkoušku skauta.
         {% else %} se ještě musí snažit.

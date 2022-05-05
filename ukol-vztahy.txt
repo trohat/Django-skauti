@@ -1,0 +1,6 @@
+Založte nový projekt a vytvořte v něm několik modelů (tj. několik tabulek v databázi). Téma projektu
+si vymyslete. Vymyslete si ho tak, aby šlo použít všechny známé vztahy mezi tabulkami (one-to-many,
+ono-to-one, many-to-many). Modely si hezky upravte (přidejte metodu pro hezké vypisování a rozumnou
+konfiguraci pro admin).
+
+Pokud budete mít více času, můžete dodělat i router, view funkce a šablony a data z modelů zobrazovat na stránkách.
