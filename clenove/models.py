@@ -21,6 +21,8 @@ class Oddil(models.Model):
     def seznam_skautu(self):
         return [skaut.jmeno for skaut in self.skauti.all()]
 
+    seznam_skautu.short_description = "Skauti v oddílu"
+
     class Meta:
         verbose_name_plural = "Oddíly"
         verbose_name = "Oddíl"

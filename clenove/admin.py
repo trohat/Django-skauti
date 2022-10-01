@@ -11,7 +11,7 @@ class SkautAdmin(admin.ModelAdmin):
     list_filter = ["splneno", "vek", "oddil"]
 
 class OddilAdmin(admin.ModelAdmin):
-    list_display = ["jmeno", "heslo", "seznam_skautu"]
+    list_display = ["jmeno", "seznam_skautu", "heslo"]
 
 @admin.register(AdresaKlubovny)
 class AdresaKlubovnyAdmin(admin.ModelAdmin):
